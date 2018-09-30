@@ -10,6 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/contato")
+@CrossOrigin(origins = "*")
 public class ContatoController {
 
 
