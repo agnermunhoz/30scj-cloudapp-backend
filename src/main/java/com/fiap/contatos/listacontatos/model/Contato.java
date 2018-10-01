@@ -11,7 +11,7 @@ public class Contato {
 
     private String email;
 
-    private Integer telefone;
+    private String telefone;
 
 
     public String getId() {
@@ -38,11 +38,11 @@ public class Contato {
         this.email = email;
     }
 
-    public Integer getTelefone() {
+    public String getTelefone() {
         return telefone;
     }
 
-    public void setTelefone(Integer telefone) {
+    public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
 
